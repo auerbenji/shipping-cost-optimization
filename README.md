@@ -1,2 +1,2 @@
-# shipping-cost-optimization
-The corresponding optimization and visualization scripts to the shipping cost optimization problem
+# Shipping cost optimization with dangerous goods penalty
+Did you ever wonder how to optimally pack parcels, serving customers with various subscription sizes of while avoiding a dangerous goods shipping penalty fee? No? Well, me neighter. Let's investigate how its done anyways! Stay with me, its worth it: We will reduce shipping cost by 40% just by intelligently exploiting the degressive cost-per-weight structure in today's CEP sector and show why shopping-cart bundling is worth it!
