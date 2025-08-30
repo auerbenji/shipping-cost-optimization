@@ -31,14 +31,14 @@ for abo in abo_vkr:
     N_R = int(np.ceil(abo/40.5)) # 5 # Reiniger (1 detergent bottle cleaning 9 batches of 4.5 ltr each)
 
     # weight
-    w_T = 0.635 #0.635 #(kg) weight per oatpack
+    w_T = 0.568 #0.568 #(kg) weight per oatpack
     w_O = 0.912 #0.912 #(kg) weight per oil bottle
     w_R = 1.300 #1.300 #(kg) weight per det bottle
 
     # cost per piece
-    c_T =  1.50  # 1.50   # (EUR/piece) # costs per Oatpack
-    c_O =  2.45  # 2.45   # (EUR/piece) # costs per Oil Bottle
-    c_R = 10.70  #10.70   # (EUR/piece) # costs per Detergent Bottle (preliminary)
+    c_T =  1.35  # 1.50   # (EUR/piece) # costs per Oatpack
+    c_O =  2.70  # 2.45   # (EUR/piece) # costs per Oil Bottle
+    c_R =  9.45  #10.70   # (EUR/piece) # costs per Detergent Bottle (preliminary)
 
     # carrier costs and weight, including Zuschlaege, 1kg for carton
     SC = np.array([0, 3.62, 4.17, 4.83, 6.3, 6.85, 7.02,  7.29])
